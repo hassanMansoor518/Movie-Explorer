@@ -7,7 +7,7 @@ const MovieApp = () => {
   const [selectedMovie, setSelectedMovie] = useState(null);
   const [trailer, setTrailer] = useState(null);
 
-  const API_KEY = "8118e05b58d706b38c045d3dcf1df26a";
+  const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
 
   // ✅ Fetch movies
   async function fetchMovies(type, searchQuery = "") {
