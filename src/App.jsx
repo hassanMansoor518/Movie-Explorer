@@ -1,4 +1,3 @@
-```jsx
 import React, { useEffect, useState } from "react";
 
 const MovieApp = () => {
@@ -279,4 +278,4 @@ const MovieApp = () => {
 };
 
 export default MovieApp;
-```
+
